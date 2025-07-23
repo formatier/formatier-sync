@@ -79,4 +79,4 @@ However, if you use `future.NewFuture()`, you'll receive a `*future.Future[T]` w
 
 > ## Warning
 >
-> Do **NOT** use `ft.SendValue()` together with `future.Warp()`.
+> Do **NOT** use `ft.SendValue()` with `future.Warp()`.
