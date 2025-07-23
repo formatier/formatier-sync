@@ -77,10 +77,6 @@ Typically, `future.Warp()` operates **asynchronously**, meaning all functions wi
 
 However, if you use `future.NewFuture()`, you'll receive a `*future.Future[T]` which allows you to call `ft.SendValue()`.
 
------
-
 > ## Warning
 >
 > Do **NOT** use `ft.SendValue()` together with `future.Warp()`.
-
------
